@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="32" height="32" rx="7" fill="url(#g)"/>
+  <!-- Fuel pump base -->
+  <rect x="7" y="26" width="12" height="1.6" rx="0.8" fill="#ffffff"/>
+  <!-- Fuel pump cabinet -->
+  <rect x="8" y="11" width="10" height="15.4" rx="1.6" fill="#ffffff"/>
+  <!-- Display window -->
+  <rect x="10" y="14" width="6" height="3.4" rx="0.6" fill="#0d9488"/>
+  <!-- Fuel cap -->
+  <circle cx="13" cy="9" r="1.4" fill="#ffffff"/>
+  <!-- Hose to nozzle -->
+  <path d="M18 15.5 C23 15.5 23.2 19 21 21" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Nozzle head -->
+  <rect x="18.6" y="20.4" width="4.2" height="2.1" rx="0.7" fill="#ffffff" transform="rotate(42 20.7 21.45)"/>
+</svg>
